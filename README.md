@@ -58,7 +58,7 @@ Queue Evaluation Logs
 
 ---
 
-## 📊 Technologies Used
+## Technologies Used
 
 - **Python 3.10+**
 - **TensorFlow / Keras** — for LSTM prediction
