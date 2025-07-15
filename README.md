@@ -26,21 +26,33 @@ Queue Evaluation Logs
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
-📦 traffic-signal-rl
+**Project Folde
 ├── data/                       # Preprocessed dataset / forecast.csv
+
 ├── model/                      # Saved models 
+
 ├── sumo_sim/                   # SUMO network and route files
+
 ├── scripts/
+
 │ ├── train_lstm.py             # LSTM model training
+
 │ ├── train_dqn.py              # DQN agent training
+
 │ ├── eval_dqn.py               # RL agent evaluation
+
 │ ├── run_fixed.py              # Fixed-timing baseline simulation
+
 │ └── sumo_env.py               # Custom Gym + TraCI environment
+
 ├── rl_queue.csv                # Logged queue lengths from RL
+
 ├── baseline_queue.csv          # Logged queue lengths from fixed-time controller
+
 ├── README.md
+
 └── Requirements.txt
 
 ---
